@@ -1,4 +1,4 @@
-# TransBridge
+# vue-tailwind-start-template
 
 ## Project setup
 ```
