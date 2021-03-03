@@ -37,8 +37,9 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.vue": [
-      "vue-cli-service lint --fix"
+    "src/**/*.{vue,js}": [
+      "vue-cli-service lint --fix",
+      "git addd ."
     ]
   },
   "browserslist": [
